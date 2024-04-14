@@ -1,10 +1,10 @@
 package test
 
 import (
-	"fmt"
 	"github.com/lyzzz123/illusion"
 	"github.com/lyzzz123/illusiondemo/controller"
 	"github.com/lyzzz123/illusiondemo/service"
+	"github.com/lyzzz123/illusionmvc/log"
 	"testing"
 )
 
@@ -22,5 +22,5 @@ func TestCookieParam(t *testing.T) {
 
 	fr, _ := getO.TC.Download()
 
-	fmt.Println(fr.Name)
+	log.Info(fr.Name)
 }
