@@ -1,4 +1,4 @@
-package main
+package test
 
 import (
 	"github.com/lyzzz123/illusion"
@@ -8,10 +8,9 @@ import (
 	"github.com/lyzzz123/illusionmvc"
 )
 
-func main() {
+func Register() {
 	config.Register()
 	controller.Register()
 	service.Register()
 	illusion.Register(&illusionmvc.Runner{})
-	illusion.Start()
 }

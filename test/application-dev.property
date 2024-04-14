@@ -1,0 +1,16 @@
+
+
+
+log.path=logs/log.log
+log.rotate.time=1
+log.rotate.size=1
+log.output=file
+log.level=debug
+
+server.port=9527
+server.activePoint=true
+server.manualShutdown=true
+
+
+static.source.path=/static
+static.source.dir=static

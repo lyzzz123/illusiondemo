@@ -1,4 +1,4 @@
-package main
+package test
 
 import (
 	"fmt"
@@ -14,9 +14,13 @@ type GetObjects struct {
 }
 
 func TestCookieParam(t *testing.T) {
-	RegisterAll()
+	Register()
+
 	getO := &GetObjects{}
 	illusion.Register(getO)
 	illusion.TestStart()
-	fmt.Println()
+
+	fr, _ := getO.TC.Download()
+
+	fmt.Println(fr.Name)
 }
