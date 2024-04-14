@@ -4,4 +4,8 @@ log.rotate.size=1
 log.output=stdout
 log.level=debug
 
+server.port=9527
+server.activePoint=true
+server.manualShutdown=true
+
 
