@@ -1,10 +1,7 @@
-
-
-
 log.path=logs/log.log
 log.rotate.time=1
 log.rotate.size=1
-log.output=file
+log.output=stdout
 log.level=debug
 
 server.port=9527
