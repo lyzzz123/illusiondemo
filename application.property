@@ -1,0 +1,7 @@
+log.path=logs/log.log
+log.rotate.time=1
+log.rotate.size=1
+log.output=stdout
+log.level=debug
+
+
