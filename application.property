@@ -1,11 +1,4 @@
-log.path=logs/log.log
-log.rotate.time=1
-log.rotate.size=1
+
+
+environment.active=dev
 log.output=stdout
-log.level=debug
-
-server.port=9527
-server.activePoint=true
-server.manualShutdown=true
-
-
